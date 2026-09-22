@@ -6,7 +6,7 @@ df = pd.read_csv('train.csv')
 print(df.head())
 print(df.shape)
 print(df.columns)
-print(df.info())
+df.info()
 print(df.isnull().sum())
 print(df.describe())
 print(df["Pclass"].value_counts(normalize=True)*100)
@@ -17,7 +17,7 @@ print(df["Age"].isnull().sum())
 print(df["Age"].describe())
 print(df["Embarked"].value_counts())
 df["Embarked"] = df["Embarked"].fillna(df["Embarked"].mode()[0])
-#0 or S is the most common
+## S is the most common embarkation port
 print(df["Embarked"].isnull().sum())
 print(df["Cabin"].value_counts(dropna=False))
 df["Deck"] = df["Cabin"].str[0]
