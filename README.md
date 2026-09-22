@@ -18,13 +18,34 @@ factors that influenced survival rates.
   while very large families (8-11 members) had 0% survival
 
 ## Visualizations
-- Survival rate by Sex
-- Survival rate by Passenger Class
-- Age distribution of passengers
-- Survival rate by Age Group
-- Survival rate by Passenger Class and Sex
-- Family Size distribution
-- Correlation heatmap of numerical features
+
+### Survival Rate by Sex
+
+![Survival Rate by Sex](survival_by_sex1.png)
+
+### Survival Rate by Passenger Class
+
+![Survival Rate by Passenger Class](survival_by_pclass2.png)
+
+### Age Distribution
+
+![Age Distribution](age_distribution3.png)
+
+### Survival Rate by Age Group
+
+![Survival Rate by Age Group](survival_by_age4.png)
+
+### Survival Rate by Passenger Class and Sex
+
+![Survival Rate by Passenger Class and Sex](survival_by_pclass_sex5.png)
+
+### Family Size Distribution
+
+![Family Size Distribution](familysize_distribution6.png)
+
+### Correlation Heatmap
+
+![Correlation Heatmap](correlation_heatmap7.png)
 
 ## Tools Used
 - Python
