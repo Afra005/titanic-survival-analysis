@@ -66,7 +66,7 @@ plt.title("Age distribution of titanic passengers")
 plt.tight_layout()
 plt.show()
 ##Visualization 4 — Survival by Age
-survival_by_age = df.groupby("AgeGroup", observed=True)["Survived"].mean()
+survival_by_age = df.groupby("AgeGroup", observed=True)["Survived"].mean()*100
 print(survival_by_age)
 survival_by_age.plot(kind="bar")
 plt.xlabel("Age")
