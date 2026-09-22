@@ -55,6 +55,13 @@ factors that influenced survival rates.
 - Jupyter/PyCharm
 
 ## How to Run
+
 1. Clone this repository
-2. Install requirements: `pip install pandas matplotlib seaborn`
-3. Run `titanic_analysis.py`
+
+2. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+
+3. Run the analysis:
+python titanic_analysis.py
