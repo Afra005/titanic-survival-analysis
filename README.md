@@ -60,8 +60,11 @@ factors that influenced survival rates.
 
 2. Install the required libraries:
 
-```bash
+```
 pip install -r requirements.txt
+```
 
 3. Run the analysis:
+```
 python titanic_analysis.py
+```
